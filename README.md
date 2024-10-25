@@ -47,7 +47,6 @@ npm install
 - Create a .env file in the root directory and add your API key:
 
 ```plaintext
-
 VITE_OPENWEATHER_API_KEY=your_api_key_here
 ```
 
@@ -55,7 +54,7 @@ VITE_OPENWEATHER_API_KEY=your_api_key_here
 To start the application, use the following command:
 
 ```bash
-npm run dev
+npm start
 ```
 - This will start the Vite development server, and you can access the application at:
 
@@ -68,6 +67,13 @@ http://localhost:3000
 ```bash
 npm install react-toastify
 ```
+
+- The frontend server should be accessible at http://localhost:3000.
+
+# 🌐 Access the Application
+frontend in Production:
+
+Frontend: Visit http://localhost:3000 to access the Real Time Web Application.
 
 ## Usage
 - Upon accessing the application, it will automatically start fetching weather data every 5 minutes.
